@@ -10,7 +10,7 @@ PRODUCT_RELEASE_NAME := dlxj
 PRODUCT_PACKAGE_OVERLAYS += device/htc/dlxj/overlay
 
 # Inherit some common CM stuff.
-$(call inherit-product, vendor/aicp/configs/common_full_phone.mk)
+$(call inherit-product, vendor/aicp/configs/common.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/htc/dlxj/full_dlxj.mk)
