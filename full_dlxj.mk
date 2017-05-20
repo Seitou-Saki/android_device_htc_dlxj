@@ -117,10 +117,6 @@ PRODUCT_PACKAGES += \
 	camera.msm8960 \
 	libshim_camera
 
-# Gello
-PRODUCT_PACKAGES += \
-	Gello
-
 # GPS
 PRODUCT_PACKAGES += \
         libloc_adapter \
